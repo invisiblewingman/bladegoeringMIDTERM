@@ -1,0 +1,103 @@
+* {
+    margin: .15em;
+    padding: .02em;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+}
+
+html {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5px;
+	max-width: 600px;
+	padding: 5px 10px;
+}
+
+.shadow {
+    text-shadow: 1px 1px 1px rgb(24, 23, 21);
+    text-indent: .035em;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    border: solid black;
+    border-radius: .01px;   
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		max-width: 960px;
+	}
+	main {
+		flex-flow: row wrap;
+    }
+    html, body {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        align-items: center;
+    }
+    
+    html {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        max-width: 600px;
+        padding: 5px 10px;
+    }
+    
+    .shadow {
+        text-shadow: 1px 1px 1px rgb(24, 23, 21);
+        text-indent: .035em;
+    }
+    
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em;
+        border: solid black;
+        border-radius: .01px;   
+    }
+	
+	}/*end of media query*/
+
+#grilledmain h1 {
+    outline: auto;
+}
+
+#spaghettimain h1 {
+    outline: auto;
+}
+
+#indexmain h1 {
+    outline: auto;
+}
+/*
+
+x Pick a topic
+x Make three pages (one named index.html)
+x Each page needs header, main, and footer elements
+x Each page will link to the same CSS sheet inside folder named CSS 
+x Needs Responsive Web Design and Flexbox; adapts to mobile, tablet, laptop, and 1920x1080 up
+x Page heading, one pic per page, 2 paragraphs and subheadings, nav links, one outside link that opens in new tab. Alts on all pics.
+x Import a font from Google Fonts and use it
+x Use a CSS Reset with box-sizing, padding, and margin at the top of style sheet.
+x One element per page needs border and border-radius, one element per page should have either text-shadow or box-shadow
+x One id attribute per html page. Reference all id attributes in CSS. Employ a class attribute per page. Reference all classes in style sheet.
+
+*/
